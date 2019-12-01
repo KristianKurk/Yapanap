@@ -30,10 +30,10 @@ Fetching API data within API data (two async responses)
 <li>R11. My application validates input, by checking for null inputs and such.</li>
 <li>R12. My application has an options menu.</li>
 <li>R13. My application's options menu is decently useful.</li>
-<li>R14. My application has a widget we haven't seen: The bottom navigation view.</li></li>
+<li>R14. My application has a widget we haven't seen: The bottom navigation view.</li>
 <li>R15. My application has navigation buttons all around.</li>
 <ul>
-
+<br>
 
 <b>Documented Test Cases</b>
 Id: DB-01
