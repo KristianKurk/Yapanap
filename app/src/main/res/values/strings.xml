@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Yapanap</string>
+    <string name="title_hiragana">Hiragana</string>
+    <string name="title_katakana">Katakana</string>
+    <string name="title_kanji">Kanji</string>
+    <string name="db_drop">DROP TABLE IF EXISTS</string>
+    <string name="default_button_text">Error</string>
+    <string name="default_kana_name">Name: Error</string>
+    <string name="default_kana_symbol">あ</string>
+    <string name="default_kana_column">Column: Error</string>
+    <string name="default_user_note_hint">Enter note</string>
+    <string name="edit_note_btn_description">Edit note</string>
+    <string name="back_button_text">Back</string>
+    <string name="save_btn_txt">Save Note</string>
+    <string name="default_kanji_name">kanji name</string>
+    <string name="default_stroke_count">Stroke Count:</string>
+    <string name="default_jlpt">JLPT:</string>
+    <string name="default_grade">Grade:</string>
+    <string name="default_meanings">Meanings:</string>
+    <string name="default_on">On:</string>
+    <string name="default_kun">Kun:</string>
+    <string name="help_text">To display information on a hiragana, katakana, or kanji, click on any symbol.</string>
+    <string name="about_text">This app was developed by Kristian Kurktchiev for his mobile application development class. The assignment was due 2019/12/01 at midnight.</string>
+</resources>

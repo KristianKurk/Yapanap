@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kanjirow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimaryLight">
+        <TextView
+            android:id="@+id/kanjiSymbolView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_kana_symbol"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:id="@+id/kanjiNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="@string/default_kanji_name"
+            android:textSize="30sp"
+            />
+
+</LinearLayout>

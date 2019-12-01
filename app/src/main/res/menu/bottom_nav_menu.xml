@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_hiragana_a"
+        android:title="@string/title_hiragana"/>
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_katakana_a"
+        android:title="@string/title_katakana" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_kanji_water"
+        android:title="@string/title_kanji"/>
+
+</menu>

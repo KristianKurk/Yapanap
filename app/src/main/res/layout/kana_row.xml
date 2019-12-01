@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/colorPrimaryLight">
+
+            <Button
+                android:id="@+id/button1"
+                style="@android:style/Widget.Material.Light.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="@string/default_button_text"
+                android:textSize="30sp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:padding="10dp"
+                android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:text="@string/default_button_text" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:text="@string/default_button_text" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:text="@string/default_button_text"/>
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:text="@string/default_button_text" />
+        </LinearLayout>
