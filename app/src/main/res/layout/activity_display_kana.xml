@@ -1,111 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".display.DisplayKana"
-    android:orientation="vertical"
-    android:background="@color/colorWhite">
+    android:layout_height="match_parent">
 
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center"
-        android:backgroundTint="@color/colorPrimaryLight">
-
-        <TextView
-            android:id="@+id/kanaSymbolView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="200sp"
-            android:gravity="center"
-            android:text="@string/default_kana_symbol"/>
-    </androidx.cardview.widget.CardView>
-    <TextView
-        android:id="@+id/kanaNameView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="20dp"
-        android:textSize="30sp"
-        android:layout_gravity="center"
-        android:text="@string/default_kana_name"
-        />
-    <TextView
-        android:id="@+id/kanaColumnView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingTop="10dp"
-        android:textSize="30sp"
-        android:layout_gravity="center"
-        android:text="@string/default_kana_column"
-        />
-
-<RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_height="106dp"
-    android:layout_marginTop="20dp">
-
-    <EditText
-        android:id="@+id/userNoteView"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
-        android:background="@color/colorSuperLight"
-        android:cursorVisible="true"
-        android:ems="10"
-        android:gravity="top|start"
-        android:hint="@string/default_user_note_hint"
-        android:importantForAutofill="no"
-        android:inputType="textMultiLine"
-        android:lines="4"
-        android:maxLines="4"
-        android:minLines="2" />
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        tools:context=".display.DisplayKana">
 
-    <ImageButton
-        android:id="@+id/moreImageButton"
-        android:layout_width="80dp"
-        android:layout_height="70dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
 
-        android:contentDescription="@string/edit_note_btn_description"
-        android:scaleType="fitXY"
-        android:src="@android:drawable/ic_menu_add"
-        android:tint="@color/colorAccent"
-        android:backgroundTint="@android:color/transparent"/>
-     <Button
-        android:id="@+id/saveNoteButton"
-        android:layout_width="wrap_content"
-        android:visibility="gone"
-        android:layout_height="wrap_content"
-        android:text="@string/save_btn_txt"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="5dp"
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/colorPrimaryLight">
 
-        android:scaleType="fitXY"
-        android:src="@android:drawable/ic_menu_add"
-        android:tint="@color/colorAccent"
-        android:backgroundTint="@android:color/transparent"/>
+            <TextView
+                android:id="@+id/kanaSymbolView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/default_kana_symbol"
+                android:textSize="200sp" />
+        </androidx.cardview.widget.CardView>
 
-    </RelativeLayout>
-    <Button
-        android:id="@+id/back_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/back_button_text"
-        android:textColor="@color/colorAccent"
-        android:background="@color/colorPrimary"
-        android:padding="10dp"
-        android:textSize="30sp"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        />
-</LinearLayout>
+        <TextView
+            android:id="@+id/kanaNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/default_kana_name"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/kanaColumnView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/default_kana_column"
+            android:textSize="30sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="106dp"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/userNoteView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorSuperLight"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:gravity="top|start"
+                android:hint="@string/default_user_note_hint"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:maxLines="4"
+                android:minLines="2" />
+
+            <ImageButton
+                android:id="@+id/moreImageButton"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+
+                android:backgroundTint="@android:color/transparent"
+                android:contentDescription="@string/edit_note_btn_description"
+                android:scaleType="fitXY"
+                android:src="@android:drawable/ic_menu_add"
+                android:tint="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/saveNoteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="5dp"
+                android:backgroundTint="@android:color/transparent"
+                android:scaleType="fitXY"
+
+                android:src="@android:drawable/ic_menu_add"
+                android:text="@string/save_btn_txt"
+                android:tint="@color/colorAccent"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:text="@string/back_button_text"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp" />
+    </LinearLayout>
+</ScrollView>

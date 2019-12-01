@@ -17,6 +17,11 @@ import static org.junit.Assert.*;
 
 public class DatabaseHandlerTest {
 
+    /*
+    I thought we had to code unit tests too, until I read the instructions properly.
+    I kept them anyways, because why not.
+     */
+
     DatabaseHandler db = new DatabaseHandler(InstrumentationRegistry.getInstrumentation().getContext());
 
     @Test
