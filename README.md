@@ -42,11 +42,11 @@ Prerequisites: Open the hiragana fragment.
 Steps: 
 1. Click on a hiragana
 2. Verify that the appropriate information is displayed.
-
+<br><br>
 Id: DB-02
 Description: Katakana user notes are saved to the database.
 Prerequisites: Open the katakana fragment.
-Steps: 
+Steps: <br>
 1. Click on a hiragana
 2. Press on the plus next to the notes field.
 3. Write in your note.
@@ -55,7 +55,7 @@ Steps:
 6. Open the app.
 7. Go to the katakana that was clicked on previously in step 1.
 8. Verify that the note is written there.
-
+<br><br>
 Id: DB-03
 Description: Kanji are loaded on to the screen.
 Prerequisites: None.
